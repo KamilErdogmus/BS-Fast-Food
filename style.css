@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  scroll-behavior: smooth;
+  transition: all 0.4s;
+  scroll-margin-top: 100px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  /* Sadece sağ taraftaki scroll a etki eder. */
+  height: 10px;
+  /* Sedece altta çıkan scroll a etki eder. */
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 0, 0.63);
+  border-radius: 20px;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+.btn1:hover {
+  background-color: orangered !important;
+  color: white !important;
+}
+
+.stars i {
+  padding: 0 2px;
+  color: orange;
+}
+.socials a {
+  color: black;
+}
+
+input,
+textarea {
+  padding: 5px 0;
+}
+.bi-credit-card-fill {
+  cursor: pointer;
+}

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BS link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Udemig-Food</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container-fluid w-75 fs-4">
+        <a class="nav-link me-5" href="#"
+          ><img src="images/logo.png" width="200px" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-lg-flex justify-content-lg-between img1 fw-bold"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Order">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Review">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control rounded-5 me-2 fs-5"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn1 btn-outline-danger fw-bold fs-5 text-dark"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Home -->
+    <section style="margin-top: 250px" class="container">
+      <div class="row">
+        <div
+          class="col-md-7 d-flex justify-content-center flex-column gap-2 fs-4"
+        >
+          <h1 class="fw-bold">
+            Claim Best Offer <br />
+            On <span class="text-danger"> FastFood</span> &
+            <span class="text-danger">Restaurant</span>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+            dignissimos.
+          </p>
+          <a href="#"
+            ><button class="btn fw-bold fs-5 btn-danger">Our Menu</button></a
+          >
+        </div>
+        <div class="col-md-5 row-cols-md-12">
+          <img src="images/image 46.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Serve -->
+    <section style="margin-top: 250px" class="container">
+      <div class="heading text-center mb-5 fw-bold">
+        <h2>
+          <span class="text-danger fw-bold fs-2">WHAT WE SERVE</span> <br />
+          Your Favorite Food <br />
+          Delivery Partner
+        </h2>
+
+        <div class="row m-5">
+          <div class="col-md-4">
+            <img src="images/img1.png" alt="" class="img-fluid h-75" />
+            <h2>Easy To Order</h2>
+            <h5>You only need to a few steps in ordering food</h5>
+          </div>
+          <div class="col-md-4">
+            <img src="images/img2.png" alt="" class="img-fluid h-75" />
+            <h2>Fastest Delivery</h2>
+            <h5>Delivery that is always ontime even faster</h5>
+          </div>
+          <div class="col-md-4">
+            <img src="images/img3.png" alt="" class="img-fluid h-75" />
+            <h2>Best Quality</h2>
+            <h5>Not only fast for us quality is also number one</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Menu  -->
+    <section style="margin-top: 350px" class="container" id="Menu">
+      <div class="heading text-center">
+        <h1 class="text-danger fw-bold">Menu</h1>
+        <h1 class="mb-5">
+          Delicious Dishes Is Here
+          <span style="font-size: 40px" class="fw-bold text-danger">
+            &darr;</span
+          >
+        </h1>
+      </div>
+
+      <div class="gridarea">
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <div class="card p-3">
+              <img
+                src="images/Mangalorean_Chicken.png"
+                class="img-fluid"
+                alt=""
+              />
+              <h3 class="text-danger text-center">M Chicken</h3>
+              <p class="fw-semibold fs-5">Lorem ipsum dolor sit amet.</p>
+
+              <div class="stars mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i>
+              </div>
+              <div
+                class="price d-flex justify-content-between align-items-center"
+              >
+                <h4 class="text-success fw-semibold">$20</h4>
+                <i class="bi text-danger fs-3 bi-credit-card-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card p-3">
+              <img src="images/Garlic_Fried.png" class="img-fluid" alt="" />
+              <h3 class="text-danger text-center">Garlic Fried</h3>
+              <p class="fw-semibold fs-5">Lorem ipsum dolor sit amet.</p>
+
+              <div class="stars mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i>
+              </div>
+              <div
+                class="price d-flex justify-content-between align-items-center"
+              >
+                <h4 class="text-success fw-semibold">$25</h4>
+                <i class="bi text-danger fs-3 bi-credit-card-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card p-3">
+              <img
+                src="images/Grilled_beef_steak.png"
+                class="img-fluid"
+                alt=""
+              />
+              <h3 class="text-danger text-center">G Beef Steak</h3>
+              <p class="fw-semibold fs-5">Lorem ipsum dolor sit amet.</p>
+              <div class="stars mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i>
+              </div>
+              <div
+                class="price d-flex justify-content-between align-items-center"
+              >
+                <h4 class="text-success fw-semibold">$30</h4>
+                <i class="bi text-danger fs-3 bi-credit-card-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card p-3">
+              <img
+                src="images/Mangalorean_Chicken.png"
+                class="img-fluid"
+                alt=""
+              />
+              <h3 class="text-danger text-center">Fried Rice</h3>
+              <p class="fw-semibold fs-5">Lorem ipsum dolor sit amet.</p>
+              <div class="stars mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i>
+              </div>
+              <div
+                class="price d-flex justify-content-between align-items-center"
+              >
+                <h4 class="text-success fw-semibold">$50</h4>
+                <i class="bi text-danger fs-3 bi-credit-card-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <div class="card p-3">
+              <img
+                src="images/Grilled_pork_ribs.png"
+                class="img-fluid"
+                alt=""
+              />
+              <h3 class="text-danger text-center">G Pork Ribs</h3>
+              <p class="fw-semibold fs-5">Lorem ipsum dolor sit amet.</p>
+              <div class="stars mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i>
+              </div>
+              <div
+                class="price d-flex justify-content-between align-items-center"
+              >
+                <h4 class="text-success fw-semibold">$100</h4>
+                <i class="bi text-danger fs-3 bi-credit-card-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card p-3">
+              <img src="images/crispy_fried.png" class="img-fluid" alt="" />
+              <h3 class="text-danger text-center">Crispy Fried</h3>
+              <p class="fw-semibold fs-5">Lorem ipsum dolor sit amet.</p>
+              <div class="stars mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i>
+              </div>
+              <div
+                class="price d-flex justify-content-between align-items-center"
+              >
+                <h4 class="text-success fw-semibold">$80</h4>
+                <i class="bi text-danger fs-3 bi-credit-card-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card p-3">
+              <img src="images/sushi__japanese.png" class="img-fluid" alt="" />
+              <h3 class="text-danger text-center">Sushi Japanes</h3>
+              <p class="fw-semibold fs-5">Lorem ipsum dolor sit amet.</p>
+              <div class="stars mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i>
+              </div>
+              <div
+                class="price d-flex justify-content-between align-items-center"
+              >
+                <h4 class="text-success fw-semibold">$200</h4>
+                <i class="bi text-danger fs-3 bi-credit-card-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card p-3">
+              <img src="images/Lyulya_kebab.png" class="img-fluid" alt="" />
+              <h3 class="text-danger text-center">Lyulya Kebab</h3>
+              <p class="fw-semibold fs-5">Lorem ipsum dolor sit amet.</p>
+              <div class="stars mb-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i>
+              </div>
+              <div
+                class="price d-flex justify-content-between align-items-center"
+              >
+                <h4 class="text-success fw-semibold">$300</h4>
+                <i class="bi text-danger fs-3 bi-credit-card-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Menu -->
+
+    <!--  -->
+    <section style="margin-top: 250px" class="container">
+      <h1 class="text-danger mb-5 text-center">Our Menu</h1>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="card p-3">
+            <img src="images/burger.png" class="img-fluid" alt="" />
+            <h3 class="text-danger text-center">Burger</h3>
+            <p class="fw-semibold fs-5">Lorem ipsum dolor sit amet.</p>
+            <div class="stars mb-2">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i>
+            </div>
+            <div
+              class="price d-flex justify-content-between align-items-center"
+            >
+              <h4 class="text-success fw-semibold">$50</h4>
+              <i class="bi text-danger fs-3 bi-credit-card-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card p-3">
+            <img src="images/fasr food.png" class="img-fluid" alt="" />
+            <h3 class="text-danger text-center">Fast Food</h3>
+            <p class="fw-semibold fs-5">Lorem ipsum dolor sit amet.</p>
+            <div class="stars mb-2">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i>
+            </div>
+            <div
+              class="price d-flex justify-content-between align-items-center"
+            >
+              <h4 class="text-success fw-semibold">$85</h4>
+              <i class="bi text-danger fs-3 bi-credit-card-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card p-3">
+            <img src="images/rice.png" class="img-fluid" alt="" />
+            <h3 class="text-danger text-center">Rice Dishe</h3>
+            <p class="fw-semibold fs-5">Lorem ipsum dolor sit amet.</p>
+            <div class="stars mb-2">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i>
+            </div>
+            <div
+              class="price d-flex justify-content-between align-items-center"
+            >
+              <h4 class="text-success fw-semibold">$60</h4>
+              <i class="bi text-danger fs-3 bi-credit-card-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card p-3">
+            <img src="images/pizza.png" class="img-fluid" alt="" />
+            <h3 class="text-danger text-center">Pizza</h3>
+            <p class="fw-semibold fs-5">Lorem ipsum dolor sit amet.</p>
+            <div class="stars mb-2">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i>
+            </div>
+            <div
+              class="price d-flex justify-content-between align-items-center"
+            >
+              <h4 class="text-success fw-semibold">$100</h4>
+              <i class="bi text-danger fs-3 bi-credit-card-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Order -->
+    <section style="margin-top: 250px" class="container" id="Order">
+      <h1 class="text-danger text-center">Order Your Food</h1>
+      <div class="row mt-5">
+        <div class="col-md-5 mb-5">
+          <img src="images/img1.png" class="img-fluid w-100" alt="" />
+        </div>
+        <div
+          class="col-md-7 input-groups d-flex row-gap-3 flex-column justify-content-between"
+        >
+          <input
+            class="rounded-3 ps-3 border-1"
+            type="text"
+            placeholder="Enter Name"
+          />
+          <input
+            class="rounded-3 ps-3 border-1"
+            type="email "
+            placeholder="Enter Mail"
+          />
+          <input
+            class="rounded-3 ps-3 border-1"
+            type="number"
+            placeholder="Enter Phone"
+          />
+          <textarea
+            name=""
+            class="rounded-3 ps-3"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Enter Address"
+          ></textarea>
+          <a href="#"
+            ><button class="btn fw-bold btn-outline-danger">
+              Order Now
+            </button></a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Review -->
+    <section style="margin-top: 250px" class="container" id="Review">
+      <div class="row">
+        <div class="col-md-4 m-auto">
+          <img src="images/review-img.png " alt="" class="img-fluid" />
+        </div>
+        <div class="col-md-8 d-flex flex-column gap-2 justify-content-start">
+          <h3 class="text-danger fw-bold text-uppercase">What They Say</h3>
+          <h2>
+            What Our Customers <br />
+            Say About Us
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            repudiandae fugiat nostrum! Quam aspernatur libero totam, dolore a
+            quibusdam nihil.
+          </p>
+          <div class="customers d-flex">
+            <div class="customer1">
+              <div class="head d-flex align-items-center">
+                <img
+                  src="images/pic-1.png"
+                  alt=""
+                  class="img-fluid pe-3 w-25"
+                />
+                <h4>John Cooper</h4>
+              </div>
+              <div class="stars py-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+            <div class="customer2">
+              <div class="head d-flex align-items-center">
+                <img
+                  src="images/pic-2.png"
+                  alt=""
+                  class="img-fluid pe-3 w-25"
+                />
+                <h4>Madison Beer</h4>
+              </div>
+              <div class="stars py-2">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                ><i class="bi bi-star-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Us -->
+    <section style="margin-top: 250px" class="container" id="Contact">
+      <div class="heading mb-4 text-center">
+        <h2>Contact <span class="text-danger">Us</span></h2>
+      </div>
+      <div class="row">
+        <div
+          class="col-md-5 mb-md-3 bg-danger rounded-4 fs-5 d-flex gap-3 text-light p-4 flex-column"
+        >
+          <h2>Let's Get In Touch</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            doloremque voluptatem nostrum ullam sed architecto.
+          </p>
+          <i class="bi bi-telephone-fill"> 9200000000000</i>
+          <i class="bi-envelope-fill"> info@gmail.com</i>
+          <i class="bi bi-geo-alt-fill">Ankara</i>
+        </div>
+
+        <div
+          class="col-md-7 input-groups d-flex flex-column gap-3 justify-content-between"
+        >
+          <input
+            class="rounded-3 ps-3 border-1"
+            type="text"
+            placeholder="Enter Name"
+          />
+          <input
+            class="rounded-3 ps-3 border-1"
+            type="email "
+            placeholder="Enter Mail"
+          />
+          <input
+            class="rounded-3 ps-3 border-1"
+            type="number"
+            placeholder="Enter Phone"
+          />
+          <textarea
+            name=""
+            class="rounded-3 ps-3"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Enter Address"
+          ></textarea>
+          <a href="#"
+            ><button class="btn fw-bold btn-outline-danger">
+              Order Now
+            </button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      style="margin-top: 250px"
+      class="container d-flex flex-column gap-2 justify-content-center align-items-center"
+    >
+      <img src="images/logo.png" alt="" class="h-25 w-25" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+        expedita!
+      </p>
+      <div class="socials d-flex gap-3 mb-5 fs-4">
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+        <a href="#"><i class="bi bi-github"></i></a>
+      </div>
+    </footer>
+  </body>
+  <!-- JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
