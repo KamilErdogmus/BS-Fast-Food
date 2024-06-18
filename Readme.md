@@ -19,9 +19,9 @@ This project is a responsive fast food website created using HTML and CSS. It fe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/fast-food-website.git
+   git clone https://github.com/KamilErdogmus/BS-Fast-Food.git
    ```
-Open the index.html file in your browser to view the website.
+2. Open the index.html file in your browser to view the website.
 
 ## GIF
 
